@@ -1,7 +1,6 @@
 import type { Todo } from "../src/types/todo";
 
-const API_URL = "http://127.0.0.1:8000/api";
-
+const API_URL = "https://django-nextjs-simple-todo.onrender.com/api";
 export async function getTodos(): Promise<Todo[]> {
   const response = await fetch(`${API_URL}/todo/`);
 
