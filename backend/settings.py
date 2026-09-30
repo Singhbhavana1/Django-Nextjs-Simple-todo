@@ -128,4 +128,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     "http://192.168.40.123:3000",
     "http://localhost:3000",
+      "https://django-nextjs-simple-todo.vercel.app",
 ]
